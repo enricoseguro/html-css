@@ -1,0 +1,21 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #555;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+p{
+    text-align: left;
+}
+.perfil{
+     border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: block;
+}

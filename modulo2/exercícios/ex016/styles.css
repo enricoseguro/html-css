@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+  /*height: 100%;*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: linear-gradient(to right, #ccea8d, #a6bc09);
+}
+main {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #404704b9;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+}
+h1 {
+  color: #069bd6;
+  text-align: center;
+  text-shadow: 2px 2px 2px #025472be;
+}
+h2 {
+  color: #019587;
+}
+p {
+  text-align: justify;
+}
+:root {
+  --cor0: #c5ebd6;
+  --cor1: #83e1ad;
+  --cor2: #3ddc84;
+  --cor3: #2fa866;
+  --cor4: #1a5c37;
+  --cor5: #063d1e;
+  --fonte0: Arial, Helvetica, sans-serif;
+  --fonte1: "Bebas Neue", cursive;
+  --fonte2: "Android", sans-serif;
+}
+body {
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    background-color: var(--cor2);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+}
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+div.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+div;video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
