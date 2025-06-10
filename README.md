@@ -5,4 +5,6 @@ Estou aprendendo a criar sites agora e vou gerenciar meus repositórios!
 
 <a href="https://enricoseguro.github.io/html-css/modulo2/desafios/d10%20c%C3%B3pia%20%20do%20v%C3%ADdeo/android.html">Executar a cópia do desafio 10!</a>
 
+<a href="https://enricoseguro.github.io/html-css/modulo2/desafios/d10/">Executar a verão do desafio 10 feita por mim!</a>
+
 <a href="https://enricoseguro.github.io/Projeto-1/">Meu primeiro projeto!!</a>
