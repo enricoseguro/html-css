@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexible Box</title>
+    <!--
+                                     flex-direction 
+    ======================================================================================
+     flex-direction: row; (automática) os itens são lidos da esquerda para direita.
+     flex-direction: row-reverse; (inverso) da direta para esquerda.
+     flex-direction: column; (coluna) de cima para baixo.
+     flex-direction: column-reverse; (coluna-inverso) de baixo para cima.
+     =====================================================================================
+                                    eixos(axis)
+    main-axis (eixo principal) ponto inicial (main-start) ponto final (main-end)
+    cross-axis (eixo transversal) ponto inicial (cross-start) ponto final (cross-end)
+    as posições do main-start, main-end, cross-start e cross-end são lidas da mesma maneira que o idioma português e que estiver configurado no (column) ou (row) de cima para baixo da esquerda para direita.
+    ======================================================================================
+                            configurações flex-direction
+    flex-direction: row; main-axis vai da esquerda para direta e o cross-axis vai de cima para baixo.
+    flex-direction: row-reverse; main-axis vai da direita para esquerda e o cross-axisnão tem inversão continua de cima para baixo.
+    flex-direction: column; main-axis vai começar a ser de cima para baixo de forma vertical e o cross-axis vai da esquerda para direita.
+    flex-direction: column-reverse; main-axis na vertical de baixo para cima e o cross-axis vai ser deitado da esquerda para direita.
+     -->
+    <style>
+      div.conteiner {
+        background-color: lightsalmon;
+        display: flex;
+      }
+      div.item {
+        background-color: lightskyblue;
+        border: 1px solid black;
+        text-align: center;
+        flex: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+      <div class="item">F</div>
+      <div class="item">G</div>
+    </div>
+  </body>
+</html>
